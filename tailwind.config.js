@@ -2,7 +2,11 @@
 module.exports = {
 	content: ['./src/**/*.{astro,js,jsx,ts,tsx}'],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				sans: ["Nunito", "sans-serif"]
+			}
+		},
 	},
 	plugins: [],
 }
