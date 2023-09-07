@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
             <h1 className=" text-xl pl-4 md:pl-8 sm:text-2xl lg:text-3xl 2xl:pl-10">Newborn Medications</h1>
         </div>
 
-        <div className="sm:w-1/2 sm:text-lg md:text-xl 2xl:text-[22px]">
+        <div className="sm:w-1/2 sm:text-lg md:text-[21px] 2xl:text-[22px]">
             <div className="py-12 pl-4 xs:py-20 sm:py-0 sm:h-1/2 flex items-center md:pl-8 2xl:pl-10">
                 <h2>What you should do</h2>
             </div>
