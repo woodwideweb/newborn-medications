@@ -6,6 +6,10 @@ module.exports = {
 			fontFamily: {
 				sans: ["Nunito", "sans-serif"]
 			},
+			width: {
+				// instead of "weird"
+				"full-plus": "calc(100% + 2rem)"
+			},
 			screens: {
 				xs: "395px",
 				"lg+": "1180px"

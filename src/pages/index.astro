@@ -1,8 +1,28 @@
 ---
-import Hero from "../components/Hero";
 import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Text from "../components/Text";
+import Link from "../components/Link";
 ---
 
 <Layout title="Newborn Medications">
     <Hero />
+    <Text title="Vitamin K" bg="slate-light">
+        Vitamin K is a nutrient that is very important to prevent bleeding.
+        Infants do not receive enough vitamin K during development in the womb
+        nor with feeds after birth. Unfortunately, some babies with vitamin K
+        deficiency will have serious bleeding of the brain which can be
+        life-threatening. While a rare occurrence, this does happen and is often
+        undetectable before the damage is done. A one-time vitamin K injection
+        shortly after birth is sufficient to greatly reduce the chance of this
+        serious bleeding in the newborn period. While liquid vitamin K is
+        available, it is not readily absorbable from the infant's immature
+        gastrointestinal tract and so is not an option for infants. For
+        additional information on Vitamin K from the American Academy of
+        Pediatrics, please see: <Link
+            url="https://www.healthychildren.org/English/ages-stages/prenatal/delivery-beyond/Pages/Where-We-Stand-Administration-of-Vitamin-K.aspx?_gl=1*yjprqa*_ga*MTE4NTQ1MzE0NS4xNjY0MDU2NDQ4*_ga_FD9D3XZVQQ*MTY5MzUxMTY5NS44NC4wLjE2OTM1MTE2OTUuMC4wLjA."
+            text="Why Your Newborn Needs a Vitamin K Shot - HealthyChildren.org"
+        />
+    </Text>
 </Layout>
