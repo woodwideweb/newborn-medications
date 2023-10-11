@@ -6,7 +6,7 @@ type Props = {
 }
 
 const Link: React.FC<Props> = ({ url, text }) => {
-    // Figuer out a better hover color 
+    // Obviously, pink 400 is a bad hover color. Do you have any suggestions?
     return <a href={url} className="underline hover:text-pink-400">{text}</a>
 }
 

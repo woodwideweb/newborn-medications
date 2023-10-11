@@ -7,13 +7,8 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="sm:w-1/2 sm:text-lg md:text-[21px] 2xl:text-[22px]">
-            <div className="py-12 pl-4 xs:py-20 sm:py-0 sm:h-1/2 flex items-center md:pl-8 2xl:pl-10">
-                {/* should it be a p or h2? I couldn't decide */}
-                <p>What you should do</p>
-            </div>
-            <div className="bg-slate-400 text-white py-12 pl-4 xs:py-20 sm:py-0 sm:h-1/2 flex items-center md:pl-8 2xl:pl-10">
-                <p>Why you should do it</p>
-            </div>
+            <div className="sm:h-1/2"></div>
+            <div className="bg-slate-400 sm:h-1/2"></div>
         </div>
     </section >
 }
