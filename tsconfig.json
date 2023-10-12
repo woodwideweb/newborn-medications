@@ -1,7 +1,6 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    // Added this line to shut the compiler up... I was getting all kinds of errors at first
     "moduleResolution": "node",
     "jsx": "react-jsx",
     "jsxImportSource": "react",
