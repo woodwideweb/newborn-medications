@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+
+    /* THIS DOES NOT WORK!!! */
+    .underline-dotted {
+        /* did it this way because, last time I checked, Safari doesn't support the shorthand for this */
+        text-decoration-line: underline;
+        text-decoration-style: dotted
+    }
+}
