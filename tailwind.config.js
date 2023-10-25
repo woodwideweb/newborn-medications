@@ -7,7 +7,6 @@ module.exports = {
 				sans: ["Nunito", "sans-serif"]
 			},
 			width: {
-				// instead of "weird"
 				"full-plus": "calc(100% + 2rem)"
 			},
 			screens: {
