@@ -4,23 +4,48 @@ import Hero from "../components/Hero";
 import TextBlock from "../components/TextBlock";
 import Link from "../components/Link";
 import Paragraph from "../components/Paragraph";
+import IntroBlock from "../components/IntroBlock";
 ---
 
 <Layout title="Newborn Medications">
     <Hero />
+    <!-- <div class="xl:w-[1173px] 2xl:w-[1400px]">
+        <div
+            class="bg-slate-500 text-white p-6 sm:p-10 md:py-14 lg:py-16 lg+:py-18 xl:flex xl:justify-center"
+        >
+            <Paragraph>
+                The birth of a baby is an exciting and happy time for parents.
+                After months of anticipation and planning, at last the day
+                arrives when the much-anticipated baby is born. Finally, the
+                family can be united. In order of importance, placing the infant
+                skin-to-skin with the mother is paramount followed by the early
+                initiation of breastfeeding. Next comes the administration of
+                the newborn medications which include the vitamin K injection,
+                hepatitis B immunization and erythromycin eye ointment. Each of
+                these are recommended by the American Academy of Pediatrics as
+                they are important for the health and wellbeing of newborns.
+                Each will be briefly discussed below with helpful links to
+                additional resources provided.
+            </Paragraph>
+        </div>
+    </div> -->
+    <IntroBlock />
     <TextBlock title="Vitamin K" bg="slate-dark">
         Vitamin K is a nutrient that is very important to prevent bleeding.
-        Infants do not receive enough vitamin K during development in the womb
-        nor with feeds after birth. Unfortunately, some babies with vitamin K
-        deficiency will have serious bleeding of the brain which can be
-        life-threatening. While a rare occurrence, this does happen and is often
-        undetectable before the damage is done. A one-time vitamin K injection
-        shortly after birth is sufficient to greatly reduce the chance of this
-        serious bleeding in the newborn period. While liquid vitamin K is
-        available, it is not readily absorbable from the infant's immature
-        gastrointestinal tract and so is not an option for infants. For
-        additional information on Vitamin K from the American Academy of
-        Pediatrics, please see:
+        Infants generally do not receive sufficient vitamin K during development
+        in the womb nor with the initial feeds after birth. Due to this, there
+        is a risk of vitamin K deficiency bleeding. When this occurs some babies
+        will have serious bleeding of the brain which can cause permanent
+        disability and even be life-threatening. While a rare occurrence, this
+        does happen and is often undetectable before the damage is done. A
+        one-time vitamin K injection shortly after birth is extremely safe and
+        sufficient to greatly reduce the chance of serious bleeding in the
+        newborn period. While oral vitamin K liquid is available online and in
+        some stores, it is not recommended as the product content is minimally
+        regulated and it is much less effective due to unpredictable absorption
+        from the infant's immature gastrointestinal tract. For additional
+        information on Vitamin K from the American Academy of Pediatrics, please
+        see
         <Link
             url="https://www.healthychildren.org/English/ages-stages/prenatal/delivery-beyond/Pages/Where-We-Stand-Administration-of-Vitamin-K.aspx?_gl=1*yjprqa*_ga*MTE4NTQ1MzE0NS4xNjY0MDU2NDQ4*_ga_FD9D3XZVQQ*MTY5MzUxMTY5NS44NC4wLjE2OTM1MTE2OTUuMC4wLjA."
             text="Why Your Newborn Needs a Vitamin K Shot - HealthyChildren.org"
@@ -28,15 +53,17 @@ import Paragraph from "../components/Paragraph";
     </TextBlock>
 
     <TextBlock title="Hepatitis B" bg="white">
-        Hepatitis B is an infection caused by a virus that can lead to failure
+        Hepatitis B is an infection caused by a virus which can lead to failure
         of the liver as well as cancer. While mothers are usually tested for
         evidence of hepatitis B infection during pregnancy, some infants
-        contract this virus even when their mother did not show evidence of
-        infection. Due to the devastating nature of hepatitis B illness in
-        children as well as the safety and efficacy of the vaccination, it is
-        important to start the hepatitis B vaccine series shortly after birth.
-        For additional information on hepatitis B from the American Academy of
-        Pediatrics, please see:
+        contract this virus during the newborn period even when their mother did
+        not show evidence of infection. The hepatitis B vaccine is a very safe
+        way to provide a high degree of life-long protection. Due to the
+        devastating nature of hepatitis B illness in children as well as the
+        safety and efficacy of the vaccination, it is important to start the
+        hepatitis B vaccine series shortly after birth. For additional
+        information on hepatitis B from the American Academy of Pediatrics,
+        please see:
         <Link
             url="https://www.healthychildren.org/English/safety-prevention/immunizations/Pages/hepatitis-b-vaccine-what-you-need-to-know.aspx?_gl=1*1r7xjh0*_ga*MTE4NTQ1MzE0NS4xNjY0MDU2NDQ4*_ga_FD9D3XZVQQ*MTY5MzUxMTY5NS44NC4xLjE2OTM1MTE5OTkuMC4wLjA."
             text="Hepatitis B Vaccine: What You Need to Know - HealthyChildren.org"
@@ -44,12 +71,15 @@ import Paragraph from "../components/Paragraph";
     </TextBlock>
 
     <TextBlock title="Erythromycin Eye Ointment" bg="slate-light">
-        There are bacteria that can be present during the birth process which
-        can infect the eyes of infants and cause vision damage and blindness.
-        The erythromycin eye ointment is a mild yet effective, one-time
-        treatment that can be vision saving. For more information on the
-        erythromycin eye ointment from the American Academy of Pediatrics,
-        please see:
+        Infants are susceptible to a vision-threatening eye infection known as
+        Neisseria gonococcal conjunctivitis. The bacterium which causes this
+        infection is also one that mothers are often screened for early in
+        pregnancy. Despite this, some infants contract this eye infection every
+        year who had mothers that tested negative. Fortunately, erythromycin eye
+        ointment is a mild and very safe, one-time treatment that can greatly
+        reduce the chance of this preventable form of eye injury. For more
+        information on the erythromycin eye ointment from the American Academy
+        of Pediatrics, please see:
         <Link
             url="https://www.healthychildren.org/English/ages-stages/prenatal/delivery-beyond/Pages/Erythromycin-Ointment.aspx?_gl=1*cyuu1n*_ga*MTE4NTQ1MzE0NS4xNjY0MDU2NDQ4*_ga_FD9D3XZVQQ*MTY5MzUxNDAxMS44NS4wLjE2OTM1MTQwMTEuMC4wLjA."
             text="Erythromycin Ointment - HealthyChildren.org"
@@ -57,31 +87,30 @@ import Paragraph from "../components/Paragraph";
     </TextBlock>
 
     <TextBlock title="Decisions for Your Baby" bg="slate-dark">
-        <!-- I am not totally sure what to do here. These three paragraphs are wrapped in a paragraph tag from <TextBlock>... is that okay? -->
         <Paragraph>
             Of late, there has been an unfortunate decline in infants receiving
-            these newborn medications. Much of this has resulted from
+            the three newborn medications. Much of this has resulted from
             misunderstanding. Some parents have declined to provide these
             medications because of concerns about safety. Truly, these newborn
             medications are extremely safe. In fact, most parents would be quite
             comfortable providing a chewable vitamin for a child or
             administering antibiotic eyedrops for a toddler with pinkeye. The
-            newborn medications are quite similar yet administered in way that
+            newborn medications are quite similar yet administered in a way that
             is effective for the newborn.
         </Paragraph>
 
         <Paragraph>
             Another misunderstanding springs out of a parental desire to provide
-            a more 'natural' experience for their newborn that is felt would be
-            more likely to promote optimal health. This back-to-basics push is
+            a more 'natural' experience for their newborn with the belief that
+            this approach is more health promoting. This back-to-basics push is
             understandable given our society's heightened dependency on
             technology. Certainly, providing infants with breast milk and
             toddlers with a minimal-media environment, ample outdoor play and a
             diet rich in fresh vegetables and fruits is undoubtedly both natural
             and healthy. Yet, declining the newborn medications is something
-            quite different. The avoidance of serious infection and life
-            threating bleeding is a worthy endeavor which promotes infant
-            wellbeing and serves as a foundation for a natural and healthy
+            quite different. The avoidance of serious infection and
+            life-threatening bleeding is a worthy endeavor which promotes infant
+            well-being and serves as a foundation for a natural and healthy
             experience in life.
         </Paragraph>
 
@@ -90,22 +119,27 @@ import Paragraph from "../components/Paragraph";
             depends on you for everything, which is an awesome honor as well as
             a huge responsibility. If you have any questions or are feeling
             hesitant about the newborn medications, we hope that you will take
-            the time to talk with your baby's medical team. We all want to give
-            you the most accurate information so that you can make the best
-            possible decisions for your baby.
+            the time to talk with your baby's pediatric team. It is both our
+            desire as well as our responsibility to share with you the most
+            accurate information so that you can make the best, informed
+            decisions for your baby.
         </Paragraph>
 
         <Paragraph>Sincerely, Pediatric Hospital Medicine</Paragraph>
     </TextBlock>
 
-    <!-- Should I be using the slate-light backgound here or the white background? I can't decide -->
     <TextBlock title="True Stories" bg="slate-light">
-        <!-- the list is unstyled unless I style the ul... why is that? -->
         <ul class="font-light sm:text-[16.5px] lg:text-lg xl:text-xl">
             <li class="pb-4">
                 <Link
                     url="https://www.cdc.gov/ncbddd/vitamink/judah-stories.html"
                     text="Judah's Story: Vitamin K Deficiency Bleeding - CDC"
+                />
+            </li>
+            <li class="pb-4">
+                <Link
+                    url="https://www.cdc.gov/ncbddd/vitamink/olive-story.html"
+                    text="Olive's Story: Vitamin K Deficiency Bleeding - CDC"
                 />
             </li>
             <li>
