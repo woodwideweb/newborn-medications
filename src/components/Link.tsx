@@ -6,7 +6,9 @@ type Props = {
 }
 
 const Link: React.FC<Props> = ({ url, text }) => {
-    return <a href={url} className="underline hover:text-cyan-400">{text}</a>
+    // note that this works while trying to make a custom style for this does not
+    // needs investigated if I do a major project in Astro again
+    return <a href={url} className="underline [text-decoration-style:dotted] hover:text-cyan-400">{text}</a>
 }
 
 export default Link;
