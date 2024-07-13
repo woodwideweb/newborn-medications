@@ -1,5 +1,6 @@
 import React from "react";
 import cx from "../../classnames"
+import "../../base.css";
 
 type Props = {
     children: React.ReactNode;
